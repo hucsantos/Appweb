@@ -10,6 +10,8 @@ from dotenv import load_dotenv
 # Configuração da página
 st.set_page_config(page_title="Dashboard Backlog", layout="wide")
 
+load_dotenv()
+
 @st.cache_data
 def load():
     # URL e Headers conforme o seu código original
