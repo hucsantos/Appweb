@@ -10,13 +10,12 @@ from dotenv import load_dotenv
 # Configuração da página
 st.set_page_config(page_title="Dashboard Backlog", layout="wide")
 
-load_dotenv()
-
 @st.cache_data
 def load():
+    load_dotenv()
     # URL e Headers conforme o seu código original
     url = url2
-    headers = {"DeskManager": & "header2"}
+    headers = {"DeskManager": header2}
     
     try:
         # Faz a requisição para baixar o Excel
