@@ -1,10 +1,16 @@
 import streamlit as st
+import os 
+from dotenv import load_dotenv
 
+load_dotenv()
 
-# Configuração da página
-st.set_page_config(page_title="Dashboard Backlog", layout="wide")
+st.title("App Web GitHub")
+st.write("AppWeb")
 
-st.tittle("Teste")
+user = os.getenv("DB_Username")
+senha = os.getenv("DB_Senha")
 
+st.write(user)
+st.write(senha)
 
 
