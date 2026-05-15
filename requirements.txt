@@ -2,6 +2,3 @@ python-dotenv
 streamlit
 openpyxl
 plotly.express
-io
-pandas
-dotenv
